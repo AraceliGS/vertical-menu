@@ -1,22 +1,112 @@
+div{
+  box-sizing: border-box;
+}
 
 #box_container {
   outline: 1px solid orange; /* Utilizo outline para visualizar mi caja contenedora*/
-  width: 30%; /*El valor de width, al ser porcentaje, está tomando como valor de referencia el ancho del elemento contenedor(body).*/
-  height: 250px;
-  background: #FBFCFC;
+  width: 32%; /*El valor de width, al ser porcentaje, está tomando como valor de referencia el ancho del elemento contenedor(body).*/
+  height: 235px;
+  background: #fbfcfc;
+  position: relative;
+
 }
 
 #big_box {
   outline: 1px solid blue; /* Utilizo outline para visualizar la caja contenida más grande*/
-  font-family: 'Lato', sans-serif;
-  height: 50px;
+  height: 57px;
+  margin: 1px;
 }
 
-.small_box {
+#small_box1 {
   outline: 1px solid green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
-  font-family: 'Libre Franklin', sans-serif;
+  height: 30px;
+  position: relative;
+  bottom: 2px;
+
 }
 
+#small_box2 {
+  outline: 1px solid green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
+  height: 30px;
+  position: relative;
+  bottom: 4px;
+}
+
+#small_box3 {
+  outline: 1px solid green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
+  height: 28px;
+  position: relative;
+}
+
+#small_box4 {
+  outline: 1px solid green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
+  height: 28px;
+  position: relative;
+}
+
+#small_box5 {
+  outline: 1px solid green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
+  height: 28px;
+  position: relative;
+}
+
+
+/* Visualizando la ubicación de los cajas cuyo elemento es p
 p {
   outline: 1px solid red;
+}*/
+
+
+#p1 {
+  height:30px;
+  position: relative;
+  top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  /*outline: 1px solid red;*/
+}
+
+#p2 {
+  height:15px;
+  margin: 3px;
+  position: relative;
+  top: 8px;
+  font-size: 12px;
+  /*outline: 1px solid red;*/
+}
+
+#p3 {
+  height:15px;
+  margin: 3px;
+  position: relative;
+  top: 8px;
+  font-size: 12px;
+  /*outline: 1px solid red;*/
+}
+
+#p4 {
+  height:15px;
+  margin: 3px;
+  position: relative;
+  top: 8px;
+  font-size: 12px;
+  /*outline: 1px solid red;*/
+}
+
+#p5 {
+  height:15px;
+  margin: 3px;
+  position: relative;
+  top: 8px;
+  font-size: 12px;
+  /*outline: 1px solid red;*/
+}
+
+#p6 {
+  height:15px;
+  margin: 3px;
+  position: relative;
+  top: 8px;
+  font-size: 12px;
+  /*outline: 1px solid red;*/
 }
