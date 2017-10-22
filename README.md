@@ -1,6 +1,6 @@
 # **Proyecto Menú Vertical**
 
-## ** Objetivo General**
+## **Objetivo General**
 
 * Entender, a través de este caso práctico, cómo crear estructuras en la web con html y a darle estilos con css.
 
