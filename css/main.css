@@ -1,13 +1,22 @@
+
 #box_container {
   outline: 1px solid orange; /* Utilizo outline para visualizar mi caja contenedora*/
   width: 30%; /*El valor de width, al ser porcentaje, está tomando como valor de referencia el ancho del elemento contenedor(body).*/
-  height: 260px;
+  height: 250px;
+  background: #FBFCFC;
 }
 
 #big_box {
   outline: 1px solid blue; /* Utilizo outline para visualizar la caja contenida más grande*/
+  font-family: 'Lato', sans-serif;
+  height: 50px;
 }
 
 .small_box {
-  outline: 1px dotted green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
+  outline: 1px solid green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p {
+  outline: 1px solid red;
 }
