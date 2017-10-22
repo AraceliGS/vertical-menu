@@ -1,1 +1,13 @@
+#box_container {
+  outline: 1px solid orange; /* Utilizo outline para visualizar mi caja contenedora*/
+  width: 30%; /*El valor de width, al ser porcentaje, está tomando como valor de referencia el ancho del elemento contenedor(body).*/
+  height: 260px;
+}
 
+#big_box {
+  outline: 1px solid blue; /* Utilizo outline para visualizar la caja contenida más grande*/
+}
+
+.small_box {
+  outline: 1px dotted green; /* Utilizo outline para visualizar las cajas contenidas más pequeñas*/
+}
