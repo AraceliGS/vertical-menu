@@ -27,5 +27,7 @@ a {
   width: 150px;
   height: 20px;
   display: block;
+  text-decoration: none;
+  color: #000;
   text-align: center;
 }
