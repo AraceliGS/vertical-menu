@@ -1,6 +1,10 @@
-div{
-  box-sizing: border-box;
-}
+/*
+   #f9a91a ---> Laboratoria
+   #f5f5f0 ---> Color de fondo
+   #e0e0d1 ---> Color de hover
+   #333 ---> Color de active
+   font-family --> sans-serif
+*/
 /*Estilos para la caja contenedora*/
 #box_container {
   outline: 1px solid orange; /* Utilizo outline para visualizar mi caja contenedora*/
