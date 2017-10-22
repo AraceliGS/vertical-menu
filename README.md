@@ -6,4 +6,4 @@
 
 ## **Objetivo del Caso Práctico**
 
-* Con la demo que te ha pasado tu equipo de diseño, hacer un menú de navegación para tu primera web interactiva.
+* Con la demo que te ha pasado tu equipo de diseño, hacer un menú de navegación vertical para tu primera web interactiva.
